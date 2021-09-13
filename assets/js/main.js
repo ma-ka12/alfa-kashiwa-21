@@ -18,7 +18,7 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: 'だいやもんどすかいつりー',
+          q1: 'ダイヤモンドスカイツリー',
         },
         stage2: {
           q1: 'つりーのたかさは634めーとるのたかさでぎねすに入った。',
