@@ -7,6 +7,8 @@
   <title>ゆめみやぐらからの脱出 │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
   <header class="header">
@@ -24,7 +26,7 @@
       <div class="container">
         <div class="box bg-color--subcolor">
           <h2 class="section-title--border">全ステージ クリア！</h2>
-          <p class="text-center">おめでとう！あなたはついに全ての謎を解き、ゆめみやぐらを盗むことができた！<br>
+          <p class="text-center" data-aos="fade-in">おめでとう！あなたはついに全ての謎を解き、ゆめみやぐらを盗むことができた！<br>
             そして先生からあるメッセージが伝えられた・・・</p>
         </div>
       </div>
@@ -82,3 +84,6 @@ Youtube貼り付けここまで-->
   </footer>
 </body>
 </html>
+<script>
+  AOS.init();
+</script>

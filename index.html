@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://unpkg.com/ityped@1.0.3"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
   <svg width="0" height="0" class="hidden">
@@ -40,7 +42,7 @@
             ２名を連れて家庭科室の前に来たが、ドアが開かない。<br>
             さらにドアの前に画面とキーボードが。どうやら暗号を入力しろということらしい。</p> -->
           <div class="story__note__outer bg-color--gray">
-            <ul class="story__note">
+            <ul class="story__note" data-aos="fade-in">
               <li>今、これを読んだ生徒会メンバー以外を呼んではいけない</li>
               <li>30分を超えるとS先生は出てこられない</li>
             </ul>
@@ -87,7 +89,7 @@
     </section>
     <section class="section bg-color--keycolor">
       <div class="container">
-        <h2 class="section-title">複数人での遊び方</h2>
+        <h2 class="section-title" data-aos="fade-in">複数人での遊び方</h2>
         <p class="font-eng text-center">Playing games with multiple players</p>
         <div class="row">
           <div class="column">
@@ -140,4 +142,7 @@
     loop: false,
     showCursor: false,
   });
+  </script>
+  <script>
+    AOS.init();
   </script>
