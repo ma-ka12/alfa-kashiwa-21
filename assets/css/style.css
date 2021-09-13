@@ -190,6 +190,11 @@ button {
   text-align: center;
 }
 
+#typist {
+  width: 70%;
+  margin: auto;
+}
+
 .hint-page .card__arrow {
   position: absolute;
   top: calc(50% - 12px);
