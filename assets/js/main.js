@@ -18,15 +18,15 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: 'ダイヤモンドスカイツリー',
+          q1: 'だいやもんどすかいつりー',
         },
         stage2: {
-          q1: 'ツリーの高さは634mで、ギネスに入った。',
+          q1: 'つりーのたかさは634mで、ぎねすにはいった。',
           // q2: 'えええ',
           // q3: 'おおお'
         },
         stage3: {
-          q1: '後期約3年半長期現場で鉄板の出し入れの多いが、無事故',
+          q1: 'こうきやく3ねんはんちょうきげんばでてっぱんのだしいれのおおいが、むじこ',
           // q2: 'かかか',
           // q3: 'ききき',
         }
@@ -108,7 +108,7 @@ app.component('answer-input', {
   template: `
     <div class="answer__container">
       <div class="answer">
-        <input type="text" v-model="inputAnswer" placeholder="ここに答えを入力しよう">
+        <input type="text" v-model="inputAnswer" placeholder="ここに答えを入力しよう(漢字はひらがなで)">
       </div>
       <p v-if="message === ngMessage" class="err-message">{{ message }}</p>
       <button v-on:click="judgement(inputAnswer)">送信</button>
